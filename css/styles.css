@@ -1,0 +1,303 @@
+/*estilos generales*/
+    *{
+        padding: 0;
+        margin: 0;
+        border: 0;
+        list-style: none;
+    }
+    :root{
+        --Text-color: #1f3783;
+        --Pink-color: #e674c9;
+        --gradient:  linear-gradient(90deg, rgba(64,161,214,1) 20%, rgba(226,109,179,1) 89%);
+    }
+    body {
+        margin: 0px;
+        font-family: 'Raleway', sans-serif;
+        position: relative;
+    }
+    .tituloW{
+        font-weight: bold;
+        font-size: 45px;
+    }
+    .tituloA{
+        font-weight: bold;
+        font-size: 45px;
+        color: var(--Text-color);
+    }
+    .textoA{
+        font-size: 25px;
+        color: var(--Text-color);
+        line-height: 25px;
+    }
+    
+    .BGgradient{
+        background: var(--gradient);
+    }
+    .BGpink{
+        background: var(--Pink-color);
+    }
+
+/*Navbar*/
+
+.bg-blue{
+    background: var(--gradient);
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+
+
+.nav-link{
+    color: white;
+}
+
+.navbar-brand > img{
+    width: 100px;
+}
+
+
+/*estilos del Inicio*/
+.tituloH{
+    font-weight: bold;
+    line-height: 75px;
+    font-size: 80px;
+   
+   }
+@media (min-width: 771px) and (max-width: 1099px) {
+   .tituloH{
+        font-weight: bold;
+        line-height: 50px;
+        font-size: 55px;
+        
+    }
+}
+@media (min-width: 300px) and (max-width: 770px) {
+    .tituloH{
+        font-weight: bold;
+        line-height: 40px;
+        font-size: 45px;
+        
+    }
+    .textoHome{
+        text-align: center;
+    }
+}
+/*estilos de "Aprende"*/
+.iconos1{
+    justify-content: space-evenly;
+}
+
+.bachata{
+    height: 200px;
+    background-image: url(../img/bachata.png);
+    background-color: #e6007e;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.bachata:hover{
+    background-image: none;
+}
+
+
+.afrodance{
+    height: 200px;
+    background-image: url(../img/afrodance.png);
+    background-color: #e6007e;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.afrodance:hover{
+    background-image: none;
+}
+
+.reggaeton{
+    height: 200px;
+    background-image: url(../img/reggaeton.png);
+    background-color: #e6007e;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.reggaeton:hover{
+    background-image: none;
+}
+
+.merengue{
+    height: 200px;
+    background-image: url(../img/merengue.png);
+    background-color: #e6007e;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.merengue:hover{
+    background-image: none;
+}
+
+
+/*estilos de "Quiénes somos?"*/
+    .container2{
+        display: flex;
+        align-items: center;
+        text-align: right;
+    }
+    @media (min-width:  300px) and (max-width: 1099px){
+        .container2{
+            flex-flow: row wrap;
+            justify-content: center;
+            text-align: center;
+        }
+        .img-fluid2{
+            width:58,1%;
+            vertical-align: middle;
+        }
+        .photoQS{
+            width: 100%;
+        }
+        .textoQS{
+            margin: 5px 60px;
+        }
+    }
+    @media (min-width: 1100px){
+        .textoQS{
+            margin-right: 70px;
+        }
+    }
+/*estilos de "Descubre"*/
+    .fundadoras{
+        justify-content: space-evenly;
+    }
+    .nombre{
+        margin: 12px 0;
+        font-size: 20px;
+        font-weight: bold;
+        color: var(--Text-color);
+        }
+
+/*estilos de "Contáctenos"*/
+    .form{
+        width: 40%;
+        text-align: end;
+    }
+
+    .bg-contacto{
+        background: var(--Text-color);
+    }
+
+    .boton4{
+		font-size: 20px;
+		font-weight: bold;
+		color: white;
+		background: none;
+		border: white .7px solid;
+		border-radius: 50px;
+		transition: all 0.5s;
+    }
+    @media (min-width: 300px) and (max-width: 799px) {
+        .form{
+            width: 90%;
+            text-align: center;
+        }
+    }
+/*estilos del Footer*/
+    footer{
+        background: var(--Text-color);
+        height: 60px;
+        font-size: 12px;
+        color: rgba(255, 255, 255, 0.8);
+        opacity: 0.8;
+    }
+   
+
+    /*estilos paginas alternas*/
+
+/*bachata*/
+
+.bannerBachata {
+    margin-top: 80px;
+    padding: 10rem 0;
+    background-image: url(../img/BACHATABAner.png);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.tituloBa{
+    font-size: 40px;
+    color: var(--Text-color);
+    font-weight: bold;
+    margin-left: 110px;
+}
+
+@media (min-width: 300px) and (max-width: 799px) {
+    .tituloBa{
+        margin-left: 0px;
+        text-align: center;
+    }
+}
+
+
+.linea{
+    width: unset;
+    height: 11px;
+    background: #e26db3;
+}
+
+.espacio{
+    margin-top: 100px;
+}
+
+.textoFrases{
+    color:  #e26db3;
+    font-size: 23px;
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+video{
+    width: 100%;
+}
+
+/*Banner Merengue*/
+
+.bannerMerengue {
+    margin-top: 0px;
+    padding: 10rem 0;
+    background-image: url(../img/MERENGUEBANER.png);
+    background-position: center;
+    background-size: cover;
+}
+
+/*Banner Afrodance*/
+
+.bannerAfrodance {
+    margin-top: 20px;
+    padding: 10rem 0;
+    background-image: url(../img/AFRODANCEBANER.png);
+    background-position: center;
+    background-size: cover;
+}
+
+/*Banner Reggaeton*/
+
+.bannerReggaeton {
+    margin-top: 20px;
+    padding: 10rem 0;
+    background-image: url(../img/REGGAETONBANER.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
